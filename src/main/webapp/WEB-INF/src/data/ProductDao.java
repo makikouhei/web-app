@@ -13,8 +13,8 @@ public class ProductDao {
 
     //接続用の情報をフィールドに定数として定義
 	 private static final String URL = "jdbc:mariadb://un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qw7b7zlp8nl4pl30";
-     private static final String USER_NAME = "nabsix0x3b22ucqc";
-     private static final String PASSWORD = "f18cngg97rbo2luj";
+     private static final String USER_NAME = "p00uiiwkjj7h0x5q";
+     private static final String PASSWORD = "yp55b6on4lb1r755";
 
     // 商品データの作成
     public int create(ProductDto data) {
