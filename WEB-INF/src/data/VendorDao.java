@@ -11,9 +11,11 @@ import java.util.ArrayList;
 public class VendorDao {
 
     //接続用の情報をフィールドに定数として定義
-	private static final String URL = "jdbc:mariadb://un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qw7b7zlp8nl4pl30";
-    private static final String USER_NAME = "p00uiiwkjj7h0x5q";
-    private static final String PASSWORD = "yp55b6on4lb1r755";
+	private static final String URL = "jdbc:mariadb://un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mp3r8sgegbf4x3eo";
+    												//ホスト名　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　データベース
+	private static final String USER_NAME = "p00uiiwkjj7h0x5q";//ユーザー名
+	private static final String PASSWORD = "yp55b6on4lb1r755";//パスワード
+
 
     // 仕入先データの読み取り
     public ArrayList<VendorDto> read()
