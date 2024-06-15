@@ -12,10 +12,10 @@ import java.util.Objects;
 public class ProductDao {
 
     //接続用の情報をフィールドに定数として定義
-	 private static final String URL = "jdbc:mariadb://un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mp3r8sgegbf4x3eo";
+	 private static final String URL = "jdbc:mariadb://klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mzq4hybdfc67jgpt";
 	                                                  //ホスト名　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　データベース
-     private static final String USER_NAME = "p00uiiwkjj7h0x5q";//ユーザー名
-     private static final String PASSWORD = "yp55b6on4lb1r755";//パスワード
+     private static final String USER_NAME = "t208bjtfj0sgnol4";//ユーザー名
+     private static final String PASSWORD = "pup4uz5wez85daiu";//パスワード
 
     // 商品データの作成
     public int create(ProductDto data) {
