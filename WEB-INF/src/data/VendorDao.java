@@ -11,10 +11,10 @@ import java.util.ArrayList;
 public class VendorDao {
 
     //接続用の情報をフィールドに定数として定義
-	 private static final String URL = "jdbc:mariadb://uyu7j8yohcwo35j3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/thtwk79pory5160c";
+	 private static final String URL = "jdbc:mariadb://uyu7j8yohcwo35j3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/fkbz28xeqc969u8k";
 	 													//ホスト名　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　データベース
-	 private static final String USER_NAME = "bb5ja5atu7wpyo49";//ユーザー名
-	 private static final String PASSWORD = "geqji4zux4g0asw5";//パスワード
+	 private static final String USER_NAME = "anpifgzqagc8h3s9";//ユーザー名
+	 private static final String PASSWORD = "it3t3mzy1vz9dynn";//パスワード
 
 
     // 仕入先データの読み取り
